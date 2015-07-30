@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D02F59351B6A74DF0048F30B /* switch.png in Resources */ = {isa = PBXBuildFile; fileRef = D02F59341B6A74DF0048F30B /* switch.png */; };
+		D02F59391B6A75A20048F30B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D02F59381B6A75A20048F30B /* Person.m */; };
+		D0369AAB1B6923A90042EA0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0369AAA1B6923A90042EA0C /* main.m */; };
+		D0369AAE1B6923A90042EA0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0369AAD1B6923A90042EA0C /* AppDelegate.m */; };
+		D0369AB11B6923A90042EA0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0369AB01B6923A90042EA0C /* ViewController.m */; };
+		D0369AB41B6923A90042EA0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0369AB21B6923A90042EA0C /* Main.storyboard */; };
+		D0369AB61B6923A90042EA0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0369AB51B6923A90042EA0C /* Images.xcassets */; };
+		D0369AB91B6923A90042EA0C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0369AB71B6923A90042EA0C /* LaunchScreen.xib */; };
+		D0369AC51B6923A90042EA0C /* PishumTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0369AC41B6923A90042EA0C /* PishumTableViewTests.m */; };
+		D0369AD01B6927B10042EA0C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0369ACF1B6927B10042EA0C /* SecondViewController.m */; };
+		D0369AD41B692DCA0042EA0C /* SimpleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0369AD31B692DCA0042EA0C /* SimpleTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0369ABF1B6923A90042EA0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0369A9D1B6923A90042EA0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0369AA41B6923A90042EA0C;
+			remoteInfo = PishumTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D02F59341B6A74DF0048F30B /* switch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switch.png; sourceTree = "<group>"; };
+		D02F59371B6A75A20048F30B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		D02F59381B6A75A20048F30B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		D0369AA51B6923A90042EA0C /* PishumTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PishumTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0369AA91B6923A90042EA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0369AAA1B6923A90042EA0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0369AAC1B6923A90042EA0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0369AAD1B6923A90042EA0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0369AAF1B6923A90042EA0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D0369AB01B6923A90042EA0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0369AB31B6923A90042EA0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0369AB51B6923A90042EA0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0369AB81B6923A90042EA0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D0369ABE1B6923A90042EA0C /* PishumTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PishumTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0369AC31B6923A90042EA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0369AC41B6923A90042EA0C /* PishumTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PishumTableViewTests.m; sourceTree = "<group>"; };
+		D0369ACE1B6927B10042EA0C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = ../SecondViewController.h; sourceTree = "<group>"; };
+		D0369ACF1B6927B10042EA0C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = ../SecondViewController.m; sourceTree = "<group>"; };
+		D0369AD21B692DCA0042EA0C /* SimpleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableViewCell.h; sourceTree = "<group>"; };
+		D0369AD31B692DCA0042EA0C /* SimpleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0369AA21B6923A90042EA0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0369ABB1B6923A90042EA0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D02F59361B6A75730048F30B /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				D02F59371B6A75A20048F30B /* Person.h */,
+				D02F59381B6A75A20048F30B /* Person.m */,
+			);
+			name = Adapter;
+			sourceTree = "<group>";
+		};
+		D0369A9C1B6923A90042EA0C = {
+			isa = PBXGroup;
+			children = (
+				D0369AD11B692D990042EA0C /* Cell */,
+				D0369AA71B6923A90042EA0C /* PishumTableView */,
+				D0369AC11B6923A90042EA0C /* PishumTableViewTests */,
+				D0369AA61B6923A90042EA0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0369AA61B6923A90042EA0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0369AA51B6923A90042EA0C /* PishumTableView.app */,
+				D0369ABE1B6923A90042EA0C /* PishumTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0369AA71B6923A90042EA0C /* PishumTableView */ = {
+			isa = PBXGroup;
+			children = (
+				D0369AAC1B6923A90042EA0C /* AppDelegate.h */,
+				D0369AAD1B6923A90042EA0C /* AppDelegate.m */,
+				D0369AAF1B6923A90042EA0C /* ViewController.h */,
+				D0369AB01B6923A90042EA0C /* ViewController.m */,
+				D0369ACE1B6927B10042EA0C /* SecondViewController.h */,
+				D0369ACF1B6927B10042EA0C /* SecondViewController.m */,
+				D0369AB21B6923A90042EA0C /* Main.storyboard */,
+				D0369AB51B6923A90042EA0C /* Images.xcassets */,
+				D0369AB71B6923A90042EA0C /* LaunchScreen.xib */,
+				D0369AA81B6923A90042EA0C /* Supporting Files */,
+			);
+			path = PishumTableView;
+			sourceTree = "<group>";
+		};
+		D0369AA81B6923A90042EA0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D02F59341B6A74DF0048F30B /* switch.png */,
+				D0369AA91B6923A90042EA0C /* Info.plist */,
+				D0369AAA1B6923A90042EA0C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0369AC11B6923A90042EA0C /* PishumTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0369AC41B6923A90042EA0C /* PishumTableViewTests.m */,
+				D0369AC21B6923A90042EA0C /* Supporting Files */,
+			);
+			path = PishumTableViewTests;
+			sourceTree = "<group>";
+		};
+		D0369AC21B6923A90042EA0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0369AC31B6923A90042EA0C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0369AD11B692D990042EA0C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D02F59361B6A75730048F30B /* Adapter */,
+				D0369AD21B692DCA0042EA0C /* SimpleTableViewCell.h */,
+				D0369AD31B692DCA0042EA0C /* SimpleTableViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0369AA41B6923A90042EA0C /* PishumTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0369AC81B6923A90042EA0C /* Build configuration list for PBXNativeTarget "PishumTableView" */;
+			buildPhases = (
+				D0369AA11B6923A90042EA0C /* Sources */,
+				D0369AA21B6923A90042EA0C /* Frameworks */,
+				D0369AA31B6923A90042EA0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PishumTableView;
+			productName = PishumTableView;
+			productReference = D0369AA51B6923A90042EA0C /* PishumTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0369ABD1B6923A90042EA0C /* PishumTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0369ACB1B6923A90042EA0C /* Build configuration list for PBXNativeTarget "PishumTableViewTests" */;
+			buildPhases = (
+				D0369ABA1B6923A90042EA0C /* Sources */,
+				D0369ABB1B6923A90042EA0C /* Frameworks */,
+				D0369ABC1B6923A90042EA0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0369AC01B6923A90042EA0C /* PBXTargetDependency */,
+			);
+			name = PishumTableViewTests;
+			productName = PishumTableViewTests;
+			productReference = D0369ABE1B6923A90042EA0C /* PishumTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0369A9D1B6923A90042EA0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Pishum;
+				TargetAttributes = {
+					D0369AA41B6923A90042EA0C = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					D0369ABD1B6923A90042EA0C = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = D0369AA41B6923A90042EA0C;
+					};
+				};
+			};
+			buildConfigurationList = D0369AA01B6923A90042EA0C /* Build configuration list for PBXProject "PishumTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0369A9C1B6923A90042EA0C;
+			productRefGroup = D0369AA61B6923A90042EA0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0369AA41B6923A90042EA0C /* PishumTableView */,
+				D0369ABD1B6923A90042EA0C /* PishumTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0369AA31B6923A90042EA0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02F59351B6A74DF0048F30B /* switch.png in Resources */,
+				D0369AB41B6923A90042EA0C /* Main.storyboard in Resources */,
+				D0369AB91B6923A90042EA0C /* LaunchScreen.xib in Resources */,
+				D0369AB61B6923A90042EA0C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0369ABC1B6923A90042EA0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0369AA11B6923A90042EA0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02F59391B6A75A20048F30B /* Person.m in Sources */,
+				D0369AD01B6927B10042EA0C /* SecondViewController.m in Sources */,
+				D0369AB11B6923A90042EA0C /* ViewController.m in Sources */,
+				D0369AAE1B6923A90042EA0C /* AppDelegate.m in Sources */,
+				D0369AD41B692DCA0042EA0C /* SimpleTableViewCell.m in Sources */,
+				D0369AAB1B6923A90042EA0C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0369ABA1B6923A90042EA0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0369AC51B6923A90042EA0C /* PishumTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0369AC01B6923A90042EA0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0369AA41B6923A90042EA0C /* PishumTableView */;
+			targetProxy = D0369ABF1B6923A90042EA0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0369AB21B6923A90042EA0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0369AB31B6923A90042EA0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0369AB71B6923A90042EA0C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0369AB81B6923A90042EA0C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0369AC61B6923A90042EA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0369AC71B6923A90042EA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0369AC91B6923A90042EA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PishumTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0369ACA1B6923A90042EA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PishumTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0369ACC1B6923A90042EA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PishumTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PishumTableView.app/PishumTableView";
+			};
+			name = Debug;
+		};
+		D0369ACD1B6923A90042EA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PishumTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PishumTableView.app/PishumTableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0369AA01B6923A90042EA0C /* Build configuration list for PBXProject "PishumTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0369AC61B6923A90042EA0C /* Debug */,
+				D0369AC71B6923A90042EA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0369AC81B6923A90042EA0C /* Build configuration list for PBXNativeTarget "PishumTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0369AC91B6923A90042EA0C /* Debug */,
+				D0369ACA1B6923A90042EA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0369ACB1B6923A90042EA0C /* Build configuration list for PBXNativeTarget "PishumTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0369ACC1B6923A90042EA0C /* Debug */,
+				D0369ACD1B6923A90042EA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0369A9D1B6923A90042EA0C /* Project object */;
+}
